@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install --force
 
-      - name: Run build
+      - name: Run build 
         run: pnpm run build
 
       - name: Deploy dist folder via FTP
